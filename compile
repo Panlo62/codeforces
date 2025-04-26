@@ -1,0 +1,2 @@
+gcc -std=c11 -pedantic -o 71a 71a.c
+gcc -std=c11 -pedantic 71a.c
