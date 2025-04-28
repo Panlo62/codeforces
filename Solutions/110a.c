@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char *lucky(long n)
+char *lucky(long long n)
 {
     int lucky_digits = 0;
 
@@ -20,8 +20,8 @@ char *lucky(long n)
 
 int main()
 {
-    long n;
-    scanf("%ld", &n);
+    long long n;
+    scanf("%lld", &n);
 
     printf("%s", lucky(n));
 
