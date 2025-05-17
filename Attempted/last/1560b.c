@@ -2,8 +2,13 @@
 
 int look(int a, int b, int c)
 {
-    if (-a != b)
+    if (a < b)
+        a = a + b, b = a - b, a -= b;
+
+    if (b - a)
         return -1;
+        
+    int n = 2 * (b - a);
 }
 
 int main()
